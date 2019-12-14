@@ -1,0 +1,16 @@
+server: 
+        port: 9527
+       
+spring:
+         application:
+          name: api-zuul
+         
+eureka:
+       client:
+        service-url:
+                      defaultZone:  http://localhost:7001/eureka/
+zuul:  routes:    provider:
+      path: /api/p/**    #**表示全路径匹配      service-id: provider    consumer:
+      path: /api/c/**
+      service-id: consumer
+          
