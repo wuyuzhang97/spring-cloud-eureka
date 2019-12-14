@@ -71,5 +71,8 @@
 		<module>provide-one</module>
 		<module>provider-two</module>
 		<module>consumer-one</module>
+		<module>consumer-two</module>
+		<module>consumer-three</module>
+		<module>Cloud-api-zuul</module>
 	</modules>
 </project>
