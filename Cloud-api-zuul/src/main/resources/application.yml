@@ -13,4 +13,8 @@ zuul:  routes:    provider:
       path: /api/p/**    #**表示全路径匹配      service-id: provider    consumer:
       path: /api/c/**
       service-id: consumer
+  LoginFilter:
+           pre:
+             disable: true  # 表示禁用过滤器LoginFilter
+
           
