@@ -74,5 +74,7 @@
 		<module>consumer-two</module>
 		<module>consumer-three</module>
 		<module>Cloud-api-zuul</module>
+		<module>Cloud-config-server</module>
+		<module>Cloud-config-client</module>
 	</modules>
 </project>
